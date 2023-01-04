@@ -1,0 +1,40 @@
+.grey-link {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 700;;
+}
+
+.noLetter-wrapper .content {
+    width: 670px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noLetter-wrapper .form .form-input, .noLetter-wrapper .form .blue-button {
+    width: 420px;
+}
+
+@media only screen and (max-width: 768px) {
+    .noLetter-wrapper .content h1 {
+        width: 270px;
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .noLetter-wrapper .content {
+        width: 340px;
+    }
+
+    .noLetter-wrapper .form .form-input, .noLetter-wrapper .form .blue-button {
+        width: 100%;
+    }
+
+    .noLetter-wrapper .exit-button {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
+
+

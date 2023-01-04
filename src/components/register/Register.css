@@ -1,0 +1,42 @@
+.promo-button {
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+
+    border: none;
+    background-color: white;
+}
+
+.finaly-text {
+    margin-top: 25px;
+}
+
+.register-content .finaly-text {
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 768px) {
+    .register-content {
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .register-content .social-btn-container {
+        width: 100%
+    }
+
+    .content .form {
+        width: 100%;
+        align-items: center
+    }
+
+    .register-content p {
+        max-width: 230px;
+    }
+
+    
+}

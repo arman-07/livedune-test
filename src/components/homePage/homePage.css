@@ -1,0 +1,9 @@
+.loggedIn {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .loggedIn {
+        font-size: 12px;
+    }
+}

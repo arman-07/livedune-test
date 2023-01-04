@@ -1,0 +1,117 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+}
+
+html {
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+}
+
+#root, .app, .wrapper {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  min-height: calc(100% - 200px);
+}
+
+input {
+  font-size: 14px;
+  font-weight: 600;
+  padding-right: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 60px;
+    padding: 0 15px;
+  }
+
+  .logo {
+    width: 115px;
+  }
+
+  .header p {
+    transform: scale(0);
+  }
+
+  .header .blue-button {
+    width: 150px;
+    height: 40px;
+    margin-left: 0;
+    font-size: 12px;
+  }
+
+  .main {
+    min-height: calc(100% - 100px);
+  }
+
+  .app .content {
+    width: 340px;
+    min-width: 340px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 54px;
+  }
+
+  .content .text-grey {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+  }
+
+  .content .or-text {
+    font-size: 13px;
+  }
+
+  .social-btn-container {
+    flex-direction: column;
+  }
+
+  .social-btn-container a {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .social-btn-container img {
+    position: absolute;
+    left: 15px
+  }
+
+  .form .blue-button {
+    height: 55px;
+    font-size: 14px;
+  }
+}
+
+
+
+

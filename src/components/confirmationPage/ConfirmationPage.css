@@ -1,0 +1,36 @@
+.confirm-page-wrapper .content {
+    width: 700px;
+    align-items: center;
+}
+
+.confirm-page-wrapper h2 {
+    margin: 0;
+    font-size: 56px;
+}
+
+.confirm-page-wrapper .content p {
+    max-width: 550px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .confirm-page-wrapper .content h2 {
+        width: 270px;
+        font-size: 32px;
+        line-height: 43px;
+    }
+
+    .confirm-page-wrapper .content {
+        width: 340px;
+    }
+
+    .confirm-page-wrapper .content .blue-button {
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .confirm-page-wrapper .exit-button {
+        font-size: 14px;
+        margin-right: 5px;
+    }
+}
