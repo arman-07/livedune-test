@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/livedune-test/static/css/main.5097c22a.css",
+    "main.js": "/livedune-test/static/js/main.bda6fa3f.js",
+    "static/media/LiveDune.svg": "/livedune-test/static/media/LiveDune.eedffd0ffec3f07e96bce1ad310ddda7.svg",
+    "static/media/letter.svg": "/livedune-test/static/media/letter.56239c581cc49cec75a29c79a3276c78.svg",
+    "static/media/elipse.svg": "/livedune-test/static/media/elipse.8273088f0fa2d5e4a243.svg",
+    "static/media/google.svg": "/livedune-test/static/media/google.8a41309eb08dcbd9d1e65c052df264f6.svg",
+    "static/media/fasebook.svg": "/livedune-test/static/media/fasebook.37165f9fb2e7ded5c6978b3c2ab0ecf7.svg",
+    "static/media/lock.svg": "/livedune-test/static/media/lock.2d89336126f43dd9622c4940e6c182fd.svg",
+    "index.html": "/livedune-test/index.html",
+    "main.5097c22a.css.map": "/livedune-test/static/css/main.5097c22a.css.map",
+    "main.bda6fa3f.js.map": "/livedune-test/static/js/main.bda6fa3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5097c22a.css",
+    "static/js/main.bda6fa3f.js"
+  ]
+}
