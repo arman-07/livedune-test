@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/no_letter_page" element={<NoLetterPage />} />
           <Route exact path="/restore_password_page" element={<RestorePasswordPage />} />
           <Route exact path="/home" element={<HomePage />} />
-          {/* <Route path='*' element={<h1>Страница не найдена</h1>} /> */}
+          <Route path='*' element={<h1>Страница не найдена</h1>} />
         </Routes>
       </div>
     </Router>
